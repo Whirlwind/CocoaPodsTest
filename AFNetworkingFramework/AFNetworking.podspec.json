@@ -1,0 +1,32 @@
+{
+  "name": "AFNetworking",
+  "version": "3.2.1.1-binary",
+  "license": "MIT",
+  "summary": "framework_summary",
+  "homepage": "https://github.com/AFNetworking/AFNetworking",
+  "social_media_url": "https://twitter.com/AFNetworking",
+  "authors": {
+    "Mattt Thompson": "m@mattt.me"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0",
+    "watchos": "2.0"
+  },
+  "description": "framework_description",
+  "source": {
+    "http": "http://code.github.com/AFNetworking.framework.zip"
+  },
+  "frameworks": [
+    "SystemConfiguration"
+  ],
+  "ios": {
+    "vendored_frameworks": "ios/*.framework"
+  },
+  "watchos": {
+    "vendored_frameworks": "watchos/*.framework"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  }
+}

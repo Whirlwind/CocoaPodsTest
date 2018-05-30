@@ -3,8 +3,7 @@
 
 target 'AssetsDemo' do
     pod 'SDWebImage'
-    pod 'AFNetworking'
-
+    pod 'AFNetworking', path: './AFNetworkingFramework'
 end
 
 target 'FrameworkDemo' do
@@ -14,5 +13,4 @@ end
 
 target 'LibraryDemo' do
     pod 'AFNetworking'
-
 end

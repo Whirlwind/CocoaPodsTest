@@ -24,6 +24,7 @@
 		ABBA704220AAB38F00856C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBA704120AAB38F00856C85 /* Assets.xcassets */; };
 		ABBA704520AAB38F00856C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBA704320AAB38F00856C85 /* LaunchScreen.storyboard */; };
 		ABBA704820AAB38F00856C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBA704720AAB38F00856C85 /* main.m */; };
+		ABFD9F4020BE7EAA00190D45 /* libLibraryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB93ACA020BD6631009409FE /* libLibraryDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABFD9F4020BE7EAA00190D45 /* libLibraryDemo.a in Frameworks */,
 				AB93AC8E20BD65EB009409FE /* FrameworkDemo.framework in Frameworks */,
 				467D87F0DD095AFC81A49261 /* libPods-AssetsDemo.a in Frameworks */,
 			);
